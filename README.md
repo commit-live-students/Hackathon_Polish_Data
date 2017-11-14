@@ -1,8 +1,9 @@
-# Hackathon_projects
-## Problem   statement:
+**Polish Data**
+**Problem   statement:**
 The   Financial   statement   of   a   firm   consists   of   critical   information   such   as   EBITDA   of   a   company,   which   can be   used   to   track   and   predict   the   future   of   a   company.   Although   important   information   is   also   present   in form   of   text   in   Notes   to   Financial   Statement   section   but,   here   we   are   simply   using   the   numeric information   for   the   prediction   purpose.
 
-## Data:    The   dataset   is   about   bankruptcy   prediction   of   Polish   companies.   The   data   was   collected   from Emerging   Markets   Information   Service,   which   is   a   database   containing   information   on   emerging   markets around   the   world.   The   bankrupt   companies   were   analyzed   in   the   period   2000-2012,   while   the   still operating   companies   were   evaluated   from   2007   to   2013.
+**Data:**    
+The   dataset   is   about   bankruptcy   prediction   of   Polish   companies.   The   data   was   collected   from Emerging  Markets   Information   Service,   which   is   a   database   containing   information   on   emerging   markets around   the   world.   The   bankrupt   companies   were   analyzed   in   the   period   2000-2012,   while   the   still operating   companies   were   evaluated   from   2007   to   2013.
 
 - Based   on   the   collected   data   five   classification   cases   were   distinguished,   that   depends   on   the forecasting   period:
     -   1stYear   :   the   data   contains   financial   rates   from   1st   year   of   the   forecasting   period   and corresponding   class   label   that   indicates   bankruptcy   status   after   5   years.   The   data   contains   7027 instances   (financial   statements),   271   represents   bankrupted   companies,   6756   firms   that   did   not bankrupt   in   the   forecasting   period.
@@ -23,4 +24,4 @@ The   Financial   statement   of   a   firm   consists   of   critical   informa
    6. X49   EBITDA   (profit   on   operating   activities   -   depreciation)   /   sales
 
 
- ## Data Source: https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data
+ **Data Source: https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data**
