@@ -1,4 +1,7 @@
-**Polish Data**
+<h1 align='center'> Hackathon</h1>
+
+# Predict   whether   a   particular   company   will   default   within   5   years,   given its   financial   statement   data.
+
 **Problem   statement:**
 The   Financial   statement   of   a   firm   consists   of   critical   information   such   as   EBITDA   of   a   company,   which   can be   used   to   track   and   predict   the   future   of   a   company.   Although   important   information   is   also   present   in form   of   text   in   Notes   to   Financial   Statement   section   but,   here   we   are   simply   using   the   numeric information   for   the   prediction   purpose.
 
