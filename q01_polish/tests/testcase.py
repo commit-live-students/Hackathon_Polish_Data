@@ -1,17 +1,13 @@
-
-import unittest
+from unittest import TestCase
 import pandas as pd
-from pandas.util.testing import assert_frame_equal
+
+original_return = pd.read_csv('q01_australian/tests/Original_classes.csv', header=None)
+student_return = pd.read_csv('q01_australian/predicted_class.csv', header=None)
+
+original = len(original_return)
 
 
-class Testing(unittest.TestCase):
-	def setUp(self):
-	    self.path = '../predicted_class.csv'
-	    self.student_return = pd.read_csv(self.path,header=None)
-	    self.original_return = pd.read_csv('Original_classes.csv',header=None)	
-
-	def test_return(self):
-            assert_frame_equal(self.student_return, self.original_return, "Return value shape does not match expected value")
-	
-if __name__=='__main__':
-    unittest.main()
+class TestHackathon(TestCase):
+    def test_return(self):
+        self.assertEqual(original, len(student_return),
+                         "Expected list of variables does not match returned list of variables")
